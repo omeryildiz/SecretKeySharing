@@ -13,5 +13,5 @@ You provide the required number of pieces - n, and the secret key – K. To gene
 
 With the XOR function (⊕) each piece is inherently important in the reconstruction of the key, if any bits in any of the pieces are changed, then the key is not recoverable. 
 
-Credits
-aivarsda/Secret-Key-Split-Util 
+<b>Credits<b>
+<br>aivarsda/Secret-Key-Split-Util 
