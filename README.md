@@ -1,4 +1,4 @@
-Secret Key Split Util
+Cpp Secret Key Split Util
 =====================
 That Utility allows you to split your secret Key into several pieces, these pieces can be stored in different places of your application code. When needed, you can reassemble the secret Key by applying the XOR function on the splitted pieces.
 
@@ -12,3 +12,6 @@ You provide the required number of pieces - n, and the secret key – K. To gene
 <br><b>K = R1 ⊕ R2 ⊕ R3 ⊕ . . . ⊕ Rn−1 ⊕ Rn</b>
 
 With the XOR function (⊕) each piece is inherently important in the reconstruction of the key, if any bits in any of the pieces are changed, then the key is not recoverable. 
+
+Credits
+aivarsda/Secret-Key-Split-Util 
